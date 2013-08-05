@@ -31,18 +31,18 @@ public final class R {
     }
     public static final class drawable {
         public static final int background_text=0x7f020000;
-        public static final int cloudy=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int llightning=0x7f020003;
-        public static final int snow=0x7f020004;
-        public static final int sun=0x7f020005;
+        public static final int background_text2=0x7f020001;
+        public static final int cloudy=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int llightning=0x7f020004;
+        public static final int snow=0x7f020005;
+        public static final int sun=0x7f020006;
     }
     public static final class id {
-        public static final int action_settings=0x7f090004;
+        public static final int action_settings=0x7f090003;
         public static final int cityText=0x7f090000;
-        public static final int freshTime=0x7f090001;
-        public static final int refreshButton=0x7f090003;
-        public static final int weaterText=0x7f090002;
+        public static final int refreshButton=0x7f090002;
+        public static final int weaterText=0x7f090001;
     }
     public static final class layout {
         public static final int weaterforecast=0x7f030000;
