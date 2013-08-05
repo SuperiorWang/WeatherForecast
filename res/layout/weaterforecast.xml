@@ -33,10 +33,10 @@
 	    android:layout_width="fill_parent"
 	    android:layout_height="fill_parent"
 	    android:background="@drawable/background_text2">
-    <Button
-        android:id="@+id/refreshButton"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/refresh" />
+	    <Button
+	        android:id="@+id/refreshButton"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/refresh" />
 	</AbsoluteLayout>
 </LinearLayout>
