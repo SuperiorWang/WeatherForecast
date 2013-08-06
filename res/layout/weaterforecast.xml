@@ -1,42 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:background="#303c33" >
 
     <TextView
-        android:id="@+id/cityText"
-        style="@style/style1"
+        android:id="@+id/textView1"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="@string/city" 
-        android:background="#646464"/>
-    
-	<TextView
-	    android:layout_width="fill_parent"
-	    android:layout_height="5dp"
-	    android:background="#D0D0E4"/>
-	
+        android:layout_height="10dp" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/textView1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_height="fill_parent" />
+        <ProgressBar 
+            android:id="@+id/progressBar"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            />
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="@string/city" />
+    </RelativeLayout>
+
     <TextView
-        android:id="@+id/weaterText"
-        style="@style/style2"
-        android:layout_width="fill_parent"
-        android:layout_height="400dp"
-        android:gravity="top" />
-	<TextView
-	    android:layout_width="fill_parent"
-	    android:layout_height="15dp"
-	    android:background="#c5c3c4"/>
-	<AbsoluteLayout
-	    android:layout_width="fill_parent"
-	    android:layout_height="fill_parent"
-	    android:background="@drawable/background_text2">
-	    <Button
-	        android:id="@+id/refreshButton"
-	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
-	        android:text="@string/refresh" />
-	</AbsoluteLayout>
-</LinearLayout>
+	    android:id="@+id/characters"
+	    android:layout_width="165dp"
+	    android:layout_height="165dp"
+	    android:layout_below="@+id/linearLayout1"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="80dp" />
+    
+   <TextView
+        android:id="@+id/icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="50dp" />
+    <TextView
+        android:id="@+id/icon_text"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/icon"
+        android:layout_alignTop="@+id/icon"
+        android:layout_marginTop="60dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/temperature_text"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/temperature"
+        android:layout_alignTop="@+id/temperature"
+        android:layout_marginTop="60dp"
+        android:gravity="center" />
+
+</RelativeLayout>

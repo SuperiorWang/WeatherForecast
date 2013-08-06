@@ -30,19 +30,30 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int background_text=0x7f020000;
-        public static final int background_text2=0x7f020001;
-        public static final int cloudy=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int llightning=0x7f020004;
-        public static final int snow=0x7f020005;
-        public static final int sun=0x7f020006;
+        public static final int arrows=0x7f020000;
+        public static final int background_text=0x7f020001;
+        public static final int background_text2=0x7f020002;
+        public static final int cloudy=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int llightning=0x7f020005;
+        public static final int rain=0x7f020006;
+        public static final int snow=0x7f020007;
+        public static final int snowandrain=0x7f020008;
+        public static final int sun=0x7f020009;
+        public static final int thunderstorm=0x7f02000a;
     }
     public static final class id {
-        public static final int action_settings=0x7f090003;
-        public static final int cityText=0x7f090000;
-        public static final int refreshButton=0x7f090002;
-        public static final int weaterText=0x7f090001;
+        public static final int action_settings=0x7f09000a;
+        public static final int characters=0x7f090005;
+        public static final int city=0x7f090004;
+        public static final int icon=0x7f090006;
+        public static final int icon_text=0x7f090007;
+        public static final int linearLayout1=0x7f090001;
+        public static final int progressBar=0x7f090003;
+        public static final int temperature=0x7f090008;
+        public static final int temperature_text=0x7f090009;
+        public static final int textView1=0x7f090000;
+        public static final int time=0x7f090002;
     }
     public static final class layout {
         public static final int weaterforecast=0x7f030000;
